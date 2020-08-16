@@ -1,6 +1,8 @@
+**Note: This is now deprecated. It can no longer be used as NICD and NDoH no longer provide line/patient info in their releases**
+
 # COVID-19 South Africa Media Release Scraping Tool
 
-A simple CLI tool that allows the user to scrape `http://ww.nicd.ac.za/` for new updates related to COVID-19
+A simple CLI tool that allows the user to scrape `http://www.nicd.ac.za/` for new updates related to COVID-19
 The original intent was to scrape `gov.za` directly, however the site seems to be intermittently down.
 
 The tool is written in Golang, and as such, is compiled into a stand-alone executable binary that can be run for a command-line on any UNIX based or Windows operating system.
@@ -123,8 +125,3 @@ shiv@LAPTOP-ENNNEGDS:~/dev/projects/covid19za/scraper$ ./scraper cov
 ```
 
 Maintained by @cishiv
-<hr>
-At a later stage
-`go.mod`, `go.sum`
-files will be added so that the tool can be compiled without having to use `go get...` to build dependencies.
-
